@@ -9,7 +9,7 @@ const pageStyles = {
 }
 const headingStyles = {
   marginTop: 0,
-  marginBottom: 64,
+  marginBottom: 24,
   maxWidth: 320,
 }
 
@@ -22,6 +22,10 @@ const codeStyles = {
   backgroundColor: "#FFF4DB",
   fontSize: "1.25rem",
   borderRadius: 4,
+}
+
+const linkStyles = {
+  color: "#1688F0"
 }
 
 // markup
@@ -45,7 +49,7 @@ const NotFoundPage = () => {
           </>
         ) : null}
         <br />
-        <Link to="/">Go home</Link>.
+        <Link to="/" style={linkStyles}>Go home</Link>.
       </p>
     </main>
   )
