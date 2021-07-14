@@ -1,20 +1,11 @@
-import React from 'react';
+/** @jsx jsx */
+import {jsx} from 'theme-ui';
 import {Link} from 'gatsby';
-
-const pageStyles = {
-    color: '#232129',
-    padding: 96,
-    fontFamily: '-apple-system, Roboto, sans-serif, serif'
-};
-const headingStyles = {
-    marginTop: 0,
-    marginBottom: 24,
-    maxWidth: 320
-};
+import {} from './layout.module.css';
 
 const Layout = ({pageTitle, children}) => {
     return (
-        <main style={pageStyles}>
+        <main>
             <title>{pageTitle}</title>
             <nav>
                 <ul>
@@ -26,7 +17,7 @@ const Layout = ({pageTitle, children}) => {
                     </li>
                 </ul>
             </nav>
-            <h1 style={headingStyles}>{pageTitle}</h1>
+            <h1 sx={{color: 'accent'}}>{pageTitle}</h1>
             {children}
         </main>
     );
