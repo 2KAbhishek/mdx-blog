@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link } from 'gatsby';
 
 // styles
 const pageStyles = {
@@ -19,6 +20,7 @@ const IndexPage = () => {
             <title>MDX Blog</title>
             <h1 style={headingStyles}>MDX Blog</h1>
             <p>Welcome to MDX Blog</p>
+            <Link to="/about">About MDX Blog</Link>
         </main>
     );
 };
