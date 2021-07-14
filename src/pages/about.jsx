@@ -4,7 +4,7 @@ import Layout from '../components/layout';
 
 const AboutPage = () => {
     return (
-        <Layout>
+        <Layout pageTitle='About'>
             <p>
                 This blog was created by{' '}
                 <a href='https://www.github.com/2kabhsihek'>2KAbhishek </a>
