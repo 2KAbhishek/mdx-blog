@@ -1,5 +1,5 @@
-import React from 'react'
-
+import * as React from 'react'
+import { Link } from 'gatsby'
 const pageStyles = {
     color: '#232129',
     padding: 96,
@@ -18,6 +18,7 @@ const AboutPage = () => {
             <h1 style={headingStyles}>About</h1>
             <p>This blog was created by <a href='https://www.github.com/2kabhsihek'>2KAbhishek </a>
              using Gatsby JS, React and Theme UI</p>
+            <Link to="/">Back to Home</Link>
         </main>
     )
 }
