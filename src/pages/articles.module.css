@@ -21,16 +21,26 @@
     transform: scale(95%);
 }
 
-h3 {
+.blog-item > a > h3 {
     padding-left: 10px;
     margin: 10px;
     font-weight: 400;
     /* font-variant: small-caps; */
 }
 
-p {
+.blog-item > p {
     font-weight: 200;
     font-size: 0.8rem;
     margin: 10px;
     padding-left: 10px;
+}
+
+article {
+    width: fit-content;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+img {
+    max-width: 90%;
 }
