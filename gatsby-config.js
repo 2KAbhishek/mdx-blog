@@ -1,6 +1,6 @@
 module.exports = {
     siteMetadata: {
-        siteUrl: 'https://www.yourdomain.tld',
+        siteUrl: 'https://2kabhishek.github.io/mdx-blog',
         title: 'MDX Blog'
     },
     plugins: [
