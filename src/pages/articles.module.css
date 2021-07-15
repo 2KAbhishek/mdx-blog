@@ -22,9 +22,15 @@
     transform: scale(95%);
 }
 
-h3 {
+h3,
+p {
     padding-left: 10px;
     margin: 10px;
     font-weight: 400;
-    font-variant: small-caps;
+    /* font-variant: small-caps; */
+}
+
+p {
+    font-weight: 200;
+    font-size: 0.9rem;
 }
