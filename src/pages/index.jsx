@@ -1,18 +1,9 @@
 import React from 'react';
 import Layout from '../components/layout';
-import {useStaticQuery, graphql} from 'gatsby';
+import {graphql} from 'gatsby';
 import {StaticImage} from 'gatsby-plugin-image';
 
-const IndexPage = () => {
-    const data = useStaticQuery(graphql`
-        query {
-            site {
-                siteMetadata {
-                    title
-                }
-            }
-        }
-    `);
+const IndexPage = ({data}) => {
     const title = data.site.siteMetadata.title;
     return (
         <Layout pageTitle={title}>
@@ -23,5 +14,15 @@ const IndexPage = () => {
         </Layout>
     );
 };
+
+export const query = graphql`
+    query {
+        site {
+            siteMetadata {
+                title
+            }
+        }
+    }
+`;
 
 export default IndexPage;
