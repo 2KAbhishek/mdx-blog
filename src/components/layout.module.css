@@ -1,6 +1,6 @@
 body {
     margin: auto;
-    max-width: 500px;
+    width: clamp(500px, 800px, 70vw);
     font-family: sans-serif;
     text-align: center;
     padding: '96px';
