@@ -14,7 +14,6 @@
 }
 
 .blog-item:hover {
-    color: #1688f0;
     border: 2px solid #1688f0;
 }
 
@@ -22,8 +21,7 @@
     transform: scale(95%);
 }
 
-h3,
-p {
+h3 {
     padding-left: 10px;
     margin: 10px;
     font-weight: 400;
@@ -32,5 +30,7 @@ p {
 
 p {
     font-weight: 200;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    margin: 10px;
+    padding-left: 10px;
 }
