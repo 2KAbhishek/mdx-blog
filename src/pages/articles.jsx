@@ -29,7 +29,6 @@ export const query = graphql`
                     title
                 }
                 id
-                body
                 slug
             }
         }
