@@ -4,14 +4,14 @@ import Layout from '../components/layout';
 import {blogList, blogItem} from './articles.module.css';
 
 const Articles = ({data}) => {
-    const articles = data.allFile.nodes.filter((node) => node.ext === '.mdx');
     return (
         <Layout pageTitle='My Articles'>
             <ul className={blogList}>
-                {articles.map((node) => (
-                    <li className={blogItem} key={node.name}>
-                        <h3>{node.name}</h3>
-                    </li>
+                {data.allMdx.nodes.map((node) => (
+                    <article className={blogItem} key={node.id}>
+                        <h3>{node.frontmatter.title}</h3>
+                        <p>Posted: {node.frontmatter.date}</p>
+                    </article>
                 ))}
             </ul>
         </Layout>
@@ -20,10 +20,14 @@ const Articles = ({data}) => {
 
 export const query = graphql`
     query {
-        allFile {
+        allMdx(sort: {fields: frontmatter___date, order: DESC}) {
             nodes {
-                name
-                ext
+                frontmatter {
+                    date(formatString: "MMMM D, YYYY")
+                    title
+                }
+                id
+                body
             }
         }
     }
