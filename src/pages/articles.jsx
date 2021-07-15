@@ -1,5 +1,5 @@
 import React from 'react';
-import {graphql} from 'gatsby';
+import {graphql, Link} from 'gatsby';
 import Layout from '../components/layout';
 import {blogList, blogItem} from './articles.module.css';
 
@@ -9,7 +9,9 @@ const Articles = ({data}) => {
             <ul className={blogList}>
                 {data.allMdx.nodes.map((node) => (
                     <article className={blogItem} key={node.id}>
-                        <h3>{node.frontmatter.title}</h3>
+                        <Link to={node.slug}>
+                            <h3>{node.frontmatter.title}</h3>
+                        </Link>
                         <p>Posted: {node.frontmatter.date}</p>
                     </article>
                 ))}
@@ -28,6 +30,7 @@ export const query = graphql`
                 }
                 id
                 body
+                slug
             }
         }
     }
