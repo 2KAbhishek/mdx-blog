@@ -1,37 +1,113 @@
-## Welcome to GitHub Pages
+<div align = "center">
 
-You can use the [editor on GitHub](https://github.com/2KAbhishek/mdx-blog/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<h1><a href="https://2kabhishek.github.io/mdx-blog">mdx-blog</a></h1>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<a href="https://github.com/2KAbhishek/mdx-blog/blob/main/LICENSE">
+<img alt="License" src="https://img.shields.io/github/license/2kabhishek/mdx-blog?style=plastic&color=white&label=License"> </a>
 
-### Markdown
+<a href="https://github.com/2KAbhishek/mdx-blog/pulse">
+<img alt="Updated" src="https://img.shields.io/github/last-commit/2kabhishek/mdx-blog?style=plastic&color=e30724&label=Updated"> </a>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<a href="https://github.com/2KAbhishek/mdx-blog/stargazers">
+<img alt="Stars" src="https://img.shields.io/github/stars/2kabhishek/mdx-blog?style=plastic&color=00d451&label=Stars"></a>
 
-```markdown
-Syntax highlighted code block
+<a href="https://github.com/2KAbhishek/mdx-blog/network/members">
+<img alt="Forks" src="https://img.shields.io/github/forks/2kabhishek/mdx-blog?style=plastic&color=1688f0&label=Forks"> </a>
 
-# Header 1
-## Header 2
-### Header 3
+<a href="https://github.com/2KAbhishek/mdx-blog/watchers">
+<img alt="Watchers" src="https://img.shields.io/github/watchers/2kabhishek/mdx-blog?style=plastic&color=ff5500&label=Watchers"> </a>
 
-- Bulleted
-- List
+<a href="https://github.com/2KAbhishek/mdx-blog/graphs/contributors">
+<img alt="Contributors" src="https://img.shields.io/github/contributors/2kabhishek/mdx-blog?style=plastic&color=f0f&label=Contributors"> </a>
 
-1. Numbered
-2. List
+<a href="https://github.com/2KAbhishek?tab=followers">
+<img alt="Followers" src="https://img.shields.io/github/followers/2kabhishek?color=222&style=plastic&label=Followers"> </a>
 
-**Bold** and _Italic_ and `Code` text
+<h3>A lazily named blog that hosts markdown files ✍🏼💤</h3>
 
-[Link](url) and ![Image](src)
+<figure>
+  <img src= "https://raw.githubusercontent.com/2KAbhishek/mdx-blog/main/images/screenshot.png" alt="mdx-blog Demo" style="width:100%">
+  <br/>
+  <figcaption>mdx-blog Screenshot</figcaption>
+</figure>
+
+</div>
+
+## Inspiration
+
+I have been hearing a lot about static site generators and wanted to try them, this was a exploratory POC created for learning purposes.
+
+## What it does
+
+mdx-blog is a lazily named blog that hosts markdown files (surprisingly!) built using Gatsby JS.
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- You have installed the latest version of `node, npm`
+
+## Getting mdx-blog
+
+To install mdx-blog, follow these steps:
+
+```bash
+git clone https://github.com/2kabhishek/mdx-blog
+cd mdx-blog
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Using mdx-blog
 
-### Jekyll Themes
+Clone this to your local and run the following to run the server and play around with the code.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/2KAbhishek/mdx-blog/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```bash
+# From the cloned directory
+npm install # Install dependencies
+gatsby develop # Run the local dev server
+$EDITOR . # Open in your preferred editor, TIP: Hot Reload!
 
-### Support or Contact
+```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## How it was built
+
+mdx-blog was built using `Gatsby JS v3`, behind the scenes it's also using `React`, `Graph QL`, `Theme UI` etc.
+
+## Challenges faced
+
+While building mdx-blog the main challenges were mostly conceptual, really understanding the benefits and drawbacks of static site generators.
+
+Also faced a minor issue with MDX rendering initially.
+
+## What I learned
+
+While building mdx-blog I learned about:
+
+- `Static site generators` in general
+    - When to use and when not to use
+- `Gatsby JS`: A great tool for quickly building static sites
+    - Very extensible
+    - Has great documentation
+- `GraphQL` (and the GraphiQL tool)
+    - Really love the specificity and usability of this
+    - Side tracked a bit and learned about `Hasura` as well
+- `Theme UI` didn't play much with it, but really love the idea behind centralized styling.
+- `React` ;)
+
+## What's next
+
+Want to add syntax highlighting for code blocks.
+
+### To-Do
+
+- [] Add better MDX rendering
+
+Hit the ⭐ button if you found this useful.
+
+## More Info
+
+<div align="center">
+
+<a href="https://github.com/2KAbhishek/mdx-blog">Source</a> |
+<a href="https://2kabhishek.github.io/mdx-blog">Website</a>
+
+</div>
