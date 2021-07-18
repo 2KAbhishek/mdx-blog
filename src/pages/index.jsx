@@ -11,8 +11,8 @@ const IndexPage = ({data}) => {
                 src='../images/icon.png'
                 alt='Markdown logo'></StaticImage>
             <p>
-                Welcome to {title} <br /> <br />A lazily named blog that hosts
-                markdown files (surprisingly!) created using Gatsby JS, visit
+                Welcome to {title}! <br /> <br />A lazily named blog that hosts
+                markdown files (surprisingly!) visit
                 <Link to='/articles'> articles</Link> to read more.
             </p>
         </Layout>
