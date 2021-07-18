@@ -3,6 +3,7 @@ module.exports = {
         siteUrl: 'https://2kabhishek.github.io/mdx-blog',
         title: 'MDX Blog'
     },
+    pathPrefix: '/mdx-blog',
     plugins: [
         'gatsby-plugin-theme-ui',
         'gatsby-plugin-image',
