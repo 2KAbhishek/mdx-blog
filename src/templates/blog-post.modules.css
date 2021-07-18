@@ -1,0 +1,10 @@
+article {
+    text-align: left;
+    width: fit-content;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+img {
+    max-width: 90%;
+}
