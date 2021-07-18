@@ -7,7 +7,7 @@ const AboutPage = () => {
             <p>
                 This blog was created by{' '}
                 <a href='https://www.github.com/2kabhsihek'>2KAbhishek </a>
-                using Gatsby JS, React and Theme UI
+                using Gatsby JS, React, Theme UI and a bazillion more things
             </p>
         </Layout>
     );

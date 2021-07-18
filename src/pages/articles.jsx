@@ -5,7 +5,7 @@ import {blogList, blogItem} from './articles.module.css';
 
 const Articles = ({data}) => {
     return (
-        <Layout pageTitle='My Articles'>
+        <Layout pageTitle='MDX Articles'>
             <ul className={blogList}>
                 {data.allMdx.nodes.map((node) => (
                     <section>
