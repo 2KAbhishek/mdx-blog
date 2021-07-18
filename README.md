@@ -99,11 +99,13 @@ Want to add syntax highlighting for code blocks.
 
 ### To-Do
 
-- [] Add better MDX rendering
+- [ ] Add better MDX rendering
 
 Hit the ⭐ button if you found this useful.
 
 ## More Info
+
+[Article on Dev.to](https://dev.to/2kabhishek/show-dev-i-built-a-personal-blog-for-displaying-markdown-articles-using-gatsby-js-v3-4n2f)
 
 <div align="center">
 
