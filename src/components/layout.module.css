@@ -41,3 +41,14 @@ a:hover {
 h2 {
     font-size: 1.25rem;
 }
+
+article {
+    text-align: left;
+    width: fit-content;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+img {
+    max-width: 90%;
+}
