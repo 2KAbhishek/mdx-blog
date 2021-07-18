@@ -2,7 +2,6 @@ import React from 'react';
 import {graphql, Link} from 'gatsby';
 import Layout from '../components/layout';
 import {blogList, blogItem} from './articles.module.css';
-import {MDXRenderer} from 'gatsby-plugin-mdx';
 
 const Articles = ({data}) => {
     return (
