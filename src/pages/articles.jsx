@@ -16,9 +16,6 @@ const Articles = ({data}) => {
                             </Link>
                             <p>Posted: {node.frontmatter.date}</p>
                         </li>
-                        <article>
-                            <MDXRenderer>{node.body}</MDXRenderer>
-                        </article>
                     </section>
                 ))}
             </ul>
@@ -35,7 +32,6 @@ export const query = graphql`
                     title
                 }
                 id
-                body
                 slug
             }
         }
