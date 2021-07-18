@@ -22,6 +22,10 @@ const Layout = ({pageTitle, children}) => {
             </nav>
             <h1 sx={{color: 'accent'}}>{pageTitle}</h1>
             {children}
+            <footer sx={{color: 'muted'}}>
+                Built with ❤️‍ by{' '}
+                <a href='https://github.com/2kabhishek'>2KAbhishek</a>
+            </footer>
         </main>
     );
 };
