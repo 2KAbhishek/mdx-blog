@@ -1,11 +1,19 @@
 /** @jsx jsx */
 import {jsx} from 'theme-ui';
 import {Link} from 'gatsby';
+import {Helmet} from 'react-helmet';
 import {} from './layout.module.css';
 
 const Layout = ({pageTitle, children}) => {
     return (
         <main>
+            <Helmet>
+                <title>{pageTitle}</title>
+                <meta
+                    name='description'
+                    content='A blog for hosting markdown files'
+                />
+            </Helmet>
             <title>{pageTitle}</title>
             <nav>
                 <ul>
