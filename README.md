@@ -83,12 +83,12 @@ Also faced a minor issue with MDX rendering initially.
 While building mdx-blog I learned about:
 
 - `Static site generators` in general
-    - When to use and when not to use
+  - When to use and when not to use
 - `Gatsby JS`: A great tool for quickly building static sites
-    - Very extensible
-    - Has great documentation
+  - Very extensible
+  - Has great documentation
 - `GraphQL` (and the GraphiQL tool)
-    - Really love the specificity and usability of this
+  - Really love the specificity and usability of this
     - Side tracked a bit and learned about `Hasura` as well
 - `Theme UI` didn't play much with it, but really love the idea behind centralized styling.
 - `React` ;)
